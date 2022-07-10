@@ -1,0 +1,97 @@
+:root{
+  --Gradient: linear-gradient(to bottom right, #dc1e6c 0%,#ce5b29 43%, #ff00df 100%)
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  position: relative ;
+  width: 100%;
+  height: 100vh ;
+  display: flex ;
+  /*justify-content: center ;
+  align-items: center ;
+  flex-direction: column ;*/
+  text-align: center ;
+  background: #000;
+}
+.screen_lock {
+  width: 99%;
+  height: 99%;
+  border-radius: 20px ;
+  background-image: var(--Gradient);
+  Border: 3px solid #000 ;
+}
+.front{
+  position: absolute ;
+  Top: -30px ;
+  left: 0 ;right: 0 ;
+  margin: auto ;
+  width: 200px;
+  height: 60px;
+  background: #000 ;
+  border-radius: 20px;
+}
+
+i{
+  font-size: 2rem ;
+  color: #fff ;
+}
+.top_icon{
+  position: absolute ;
+  Top:50px ;
+  left: 0 ;right: 0 ;
+}
+.fa-wifi{
+  position:absolute ;
+  top: 7px;
+  right: 40px ;
+  font-size: 1.2rem;
+}
+.date_variable {
+  font-size: 1rem ;
+  font-weight: bold ;
+  position: absolute ;
+  top: 100px;
+  left: 0 ;right: 0 ;
+  margin: auto ;
+  color: #fff ;
+}
+.date_variable #time{
+  font-size: 3rem ;
+  
+}
+
+.bottom_icon{
+  position: absolute ;
+  bottom:45px ;
+  left: 0 ;right: 0 ;
+  display: flex ;
+  justify-content: space-between ;
+  align-items: center ;
+  margin: 25px ;
+}
+.bottom_icon i{
+  font-size: 1.7rem;
+  width: 50px;
+  Height : 50px;
+  border-radius: 50%;
+  background: #000;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+}
+
+
+.back{
+  position: absolute ;
+  bottom: 20px ;
+  left: 0 ;right: 0 ;
+  margin: auto ;
+  width: 150px;
+  height: 6px;
+  background: #fff ;
+  border-radius: 10px;
+}
